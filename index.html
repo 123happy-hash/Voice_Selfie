@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <title>Voice Selfie</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+    </head> 
+    <body>
+        <center>
+            <a href = "" id = "link" download="selfie.jpg"></a>
+            <h1>Voice Selfie app <img class = "selfie" src="Chris Pratt.jpg"></h1>
+            <hr>
+            <h4 class = "text-danger">Press allow when the pop-up comes up.</h4>
+            <br>
+            <h3> Say "Take My Selfie"</h3> 
+            <br>
+            <h5>Your Voice Output: </h5>
+            <textarea id = "SelfieInput" readonly="true" ></textarea>
+            <br>
+            <br>
+            <button class = "btn btn-primary" id = "startButton" onclick = "Start1()">Start</button>
+            <h6>Press start button</h6>
+            <br>
+            <br>
+            <h6><b>Your Webcam</b></h6>
+            <br>
+            <div id = "Camera">
+
+            </div>
+            <br>
+            <br>
+            <h6><b>Your selfie will display here:</b><h6>
+            <br>
+            <div id = "Webcam1">
+
+            </div>
+        </center>
+        <script src = "Main.js"></script>
+    </body>
+</html>

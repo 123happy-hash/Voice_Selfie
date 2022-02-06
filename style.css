@@ -1,0 +1,18 @@
+.selfie{
+    height: 100px;
+    width: 80px;
+    border-radius: 50%;
+}
+#camera{
+    height:250px;
+    width:300px;
+    border:2px solid rgb(0, 195, 255);
+}
+body{
+    background-image: linear-gradient(#d73d6c, #d57276, rgb(255, 255, 154), #d6c2bc, rgb(255, 239, 169), #c0cccc, #65b2c6);
+}
+#webcam{
+    height:250px;
+    width:300px;
+    border:2px solid rgb(0, 195, 255);
+}
